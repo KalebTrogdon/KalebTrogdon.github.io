@@ -2,18 +2,18 @@ project:
   type: website
 
 website:
-  title: "Your_Name - Data Science Portfolio"
+  title: "Kaleb Trogdon - Data Science Portfolio"
   favicon: Images/favicon.png
   back-to-top-navigation: true
-  repo-url: https://github.com/username/username.github.io
+  repo-url: https://github.com/KalebTrogdon/KalebTrogdon.github.io
   #repo-actions: [issue] #if you want to allow others to report issues on your site uncomment this line
 
   page-footer: 
     border: true
-    left: "Your_Name 2024©"
+    left: "Kaleb Trogdon 2024©"
     right: 
       - icon: linkedin
-        href: Your_LinkedIn_URL
+        href: https://www.linkedin.com/in/kaleb-trogdon-5b38311a2/ 
 
   navbar:
     background: primary
@@ -178,8 +178,8 @@ format:
     theme: #see this link to customize the theme with css (https://quarto.org/docs/output-formats/html-themes.html#dark-mode)
       light: flatly # more themes can be found [here](https://quarto.org/docs/output-formats/html-themes.html)
       dark: darkly
-      #light: cosmo
-      #dark: [cosmo, theme-dark.scss]
+      light: cosmo
+      dark: [cosmo, theme-dark.scss]
     css: styles.css
     toc: true
 
